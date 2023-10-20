@@ -45,7 +45,7 @@ let timer = setInterval(
         counter ++;
         //A questo secondo nascondo i numeri casuali
         if(counter === 31){
-            container.classList.add(".hidden");
+            container.classList.add("hidden");
         } else if (counter === 32){
             // Reimposto il contatore a 0 e interrompo la funzione di timer
             counter = 0;
